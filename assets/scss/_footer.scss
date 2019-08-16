@@ -1,0 +1,33 @@
+.footer {
+	background: #17D0FF;
+	padding: 30px;
+	&--social {
+		margin-bottom: 15px;
+		ul {
+			display: flex;
+			justify-content: center;
+			li {
+				margin-right: 10px;
+				a {
+					display: block;
+					width: 32px;
+					height: 32px;
+					line-height: 32px;
+					text-align: center;
+					color: #B1EEFD;
+					border-radius: 50%;
+					background: #1BC0EA;
+					&:hover {
+						color: #fff;
+						background: #333;
+					}
+				}
+			}
+		}
+	}
+	.copyright {
+		color: #fff;
+		text-align: center;
+		font-size: 15px;
+	}
+}

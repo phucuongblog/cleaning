@@ -1,0 +1,26 @@
+@mixin image($height) {
+	width: 100%;
+	height: $height;
+	object-fit: cover;
+}
+@mixin absolute($top,$bottom,$left,$right) {
+	position: absolute;
+	top: $top;
+	bottom: $bottom;
+	left: $left;
+	right: $right;
+}
+@mixin font-face($weight,$style) {
+	font: {
+		family: "Lato";
+		weight: $weight;
+		style: $style;
+	}
+}
+@mixin font-face2($weight,$style) {
+	font: {
+		family: "Roboto";
+		weight: $weight;
+		style: $style;
+	}
+}
